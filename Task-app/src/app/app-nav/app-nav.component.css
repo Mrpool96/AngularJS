@@ -1,0 +1,22 @@
+.sign-up{
+    color:white;
+    font-size: 15px;
+    background-color: rgb(67, 135, 253);
+    font-family: Arial, Helvetica, sans-serif;
+    padding:px;
+    border-width: 1px 1x 1px 1px;
+ }
+
+ .google-nav{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.icon{
+    font-size:20px;
+    text-align: end;
+}
+.align-text{
+    text-align: right;
+    font-size: 14px;
+    word-spacing: 7px;
+}

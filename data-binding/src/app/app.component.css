@@ -1,0 +1,12 @@
+.box{
+    width: 150px;
+    height: 200px;
+    border: 1px solid gray;
+    box-shadow: gray;
+    margin: 2px;
+    margin-left: 5px;
+    border-radius: 25px;
+}
+.container-fluid{
+    width: 100%;
+}

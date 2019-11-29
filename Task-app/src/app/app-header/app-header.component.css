@@ -1,0 +1,51 @@
+.container{
+    width: 100%;
+
+  }
+  
+  .logo-img img{
+   
+    width: 272px;
+    height:92px;
+    margin-left:500px;
+    padding-top: 50px;
+    
+  }
+  
+  .google-search{
+    padding: 2px;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  .input-group{
+    margin: 3px auto 3px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 500px; 
+    border-radius: 20px!important;
+    border: none !important; 
+    padding:0%;
+  
+  -moz-box-shadow:    1px 1px 2px 3px #ccc;
+  -webkit-box-shadow:  1px 1px 2px 3px #ccc;
+   box-shadow:          1px 1px 2px 3px #ccc;
+  
+  
+  }
+  .form-control{
+    margin: 4px auto 4px;
+    border: none !important;
+  
+  }
+  .input-padding{
+  padding:5px;
+  
+  }
+  
+  .input-group-text{
+    background: transparent !important; 
+    border: none !important; 
+    padding:5px;
+    margin:0%;
+    
+  }
