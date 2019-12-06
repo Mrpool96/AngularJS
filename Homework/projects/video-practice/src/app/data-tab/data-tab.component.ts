@@ -12,7 +12,7 @@ export class DataTabComponent implements OnInit {
   @Input()
   rows: Array<TabRow> = new Array()
 
-@Output('delete')
+@Output('Delete')
   deleteRow: EventEmitter<TabRow> =new EventEmitter()
   constructor() { }
 
@@ -21,8 +21,8 @@ export class DataTabComponent implements OnInit {
     
   }
 
-  onRowDelete( row: TabRow){
-    console.log('Delete Clicked', row)
+  onRowDelete(row: TabRow){
+    console.log(`Delete Clicked`, row)
     this.deleteRow.emit(row)
   }
 

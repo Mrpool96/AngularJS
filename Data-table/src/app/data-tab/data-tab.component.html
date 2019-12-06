@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+                <table class="table table-bordered table-striped mt-3">
+                        <thead>
+                          <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Item</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col"><input type="text" (keyup)="sort()"></th>
+                                <th scope="col"><input type="text" (keyup)="sort()"></th>
+                                <th scope="col"><input type="text" (keyup)="sort()"></th>
+                                <th scope="col"><input type="text" (keyup)="sort()"></th>
+                                <th scope="col"><input type="button" value="Add" (click)="onBtnClk(row)" class="btn btn-info">
+
+                            </tr>
+                          <tr *ngFor="let row of rows">
+                            <th scope="row">{{row?.id}}</th>
+                            <td>{{row?.item}}</td>
+                            <td>{{row?.qty}}</td>
+                            <td>{{row?.price}}</td>
+                            <td><u (click)="onRowDelete(row)">Delete</u></td>
+                          </tr>
+                          
+                          
+                        </tbody>
+                      </table>
+        </div>
+    </div>
+</div>
